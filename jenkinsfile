@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pulls
-Issues
-Marketplace
-Explore
- 
-@mrdavehill 
-alexandarp
-/
-gitops-terraform-jenkins
-2
-68153
-Code
-Issues
-1
-Pull requests
-1
-Actions
-Projects
-Wiki
-Security
-More
-gitops-terraform-jenkins/Jenkinsfile
-@alexandarp
-alexandarp add initial files required
-Latest commit 4b57dfe on 22 Apr 2019
- History
- 1 contributor
-91 lines (85 sloc)  2 KB
-  
 // Jenkinsfile
 String credentialsId = 'awsCredentials'
 
@@ -121,15 +89,3 @@ finally {
     currentBuild.result = 'SUCCESS'
   }
 }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
